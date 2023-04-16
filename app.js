@@ -5,19 +5,21 @@ const tasks = require('./routes/tasks')
 
 const connectDB = require('./db/connenct')
 require('dotenv').config()
-app.use(express.json())
 
-app.get('/hello',(req,res) =>{
-    res.send('task manager app')
-})
+app.use(express.static('./public'))
+app.use(express.json())
 
 app.use('/api/v1/tasks',tasks)
 
+// app.get('/',(req,res) => {
+//     res.send("hh")
+// })
 const port = 3000
 const start = async () => {
     try {
         await connectDB(process.env.MONGO_URI)
         app.listen(port,console.log("server is listening"))
+        
     } catch(error) {
         console.log(error)
     }

@@ -1,0 +1,43 @@
+.tasks > div {
+    margin-top: 10px;
+    background-color: rgb(238, 234, 201);
+}
+lord-icon, i {
+    color:green;
+    text-align: center;
+    float: right;
+    margin-top: 7px;
+    margin-right: 25px;
+}
+.tasks > div:hover {
+    background-color: rgb(162, 199, 239);
+}
+.addbtn {
+    border-radius: 30px;
+    background-color: rgb(238, 234, 201);
+    width: 90px;
+}
+.addbtn:hover {
+    background-color: rgb(162, 199, 239);
+}
+
+.pop {
+    display: none;
+    position: absolute;
+    top:25%;
+    background-color: white;
+    width: 50%;
+    border-radius: 20px;
+    padding: 0 20px;
+    margin-left: 25%;
+}
+.poptask {
+    width: 100%;
+    border: none;
+    outline: none;
+}
+.epro{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
