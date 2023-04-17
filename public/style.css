@@ -1,6 +1,6 @@
 .tasks > div {
     margin-top: 10px;
-    background-color: rgb(238, 234, 201);
+    background-color: rgb(162, 199, 239);
 }
 lord-icon, i {
     color:green;
@@ -10,15 +10,15 @@ lord-icon, i {
     margin-right: 25px;
 }
 .tasks > div:hover {
-    background-color: rgb(162, 199, 239);
+    background-color: rgb(238, 234, 201);
 }
 .addbtn {
     border-radius: 30px;
-    background-color: rgb(238, 234, 201);
+    background-color: rgb(162, 199, 239);
     width: 90px;
 }
 .addbtn:hover {
-    background-color: rgb(162, 199, 239);
+    background-color: rgb(238, 234, 201);
 }
 
 .pop {
